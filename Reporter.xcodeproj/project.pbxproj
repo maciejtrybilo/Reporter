@@ -32,6 +32,7 @@
 		598AF92C1C8DFACF0076C638 /* MTReporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTReporter.m; sourceTree = "<group>"; };
 		598AF92E1C8DFAE30076C638 /* MTReporter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTReporter.h; sourceTree = "<group>"; };
 		598AF9311C8DFC4F0076C638 /* MTReporterTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTReporterTests.m; sourceTree = "<group>"; };
+		598AF9331C8DFE0E0076C638 /* MTReport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTReport.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +79,7 @@
 				598AF9171C8DF9900076C638 /* Info.plist */,
 				598AF92C1C8DFACF0076C638 /* MTReporter.m */,
 				598AF92E1C8DFAE30076C638 /* MTReporter.h */,
+				598AF9331C8DFE0E0076C638 /* MTReport.h */,
 			);
 			path = Reporter;
 			sourceTree = "<group>";

@@ -8,6 +8,12 @@
 
 #include "MTReporter.h"
 
+@interface MTReporter ()
+
+@property (nonatomic) NSMutableArray<id<MTReport>> *reports;
+
+@end
+
 @implementation MTReporter
 
 - (instancetype)initWithReportingInterval:(int)interval
@@ -16,9 +22,15 @@
     
     if (self) {
         _reportingInterval = interval;
+        _reports = [[NSMutableArray<id<MTReport>> alloc] init];
     }
     
     return self;
+}
+
+- (void)addReport:(id<MTReport>)report
+{
+    [self.reports addObject:report];
 }
 
 @end

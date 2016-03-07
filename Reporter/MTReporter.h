@@ -7,11 +7,13 @@
 //
 
 @import Foundation;
+#import "MTReport.h"
 
 @interface MTReporter : NSObject
 
 @property (nonatomic, readonly) int reportingInterval;
 
 - (instancetype)initWithReportingInterval:(int)interval;
+- (void)addReport:(id<MTReport>)report;
 
 @end
