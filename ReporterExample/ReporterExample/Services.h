@@ -6,12 +6,12 @@
 //
 //
 
-//#import "MTReporter.h"
+#import <Reporter.h>
 
 @interface Services : NSObject
 
 + (instancetype)sharedInstance;
 
-//@property (nonatomic, readonly) MTReporter *reporter;
+@property (nonatomic, readonly) MTReporter *reporter;
 
 @end

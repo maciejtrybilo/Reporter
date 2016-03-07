@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "Services.h"
+#import "ReportingEvent.h"
 
 @interface ViewController ()
 
@@ -18,7 +19,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    //[Services sharedInstance].reporter add
+    ReportingEvent *event = [[ReportingEvent alloc] init];
+    [[Services sharedInstance].reporter addReport:event];
 }
 
 - (void)didReceiveMemoryWarning {

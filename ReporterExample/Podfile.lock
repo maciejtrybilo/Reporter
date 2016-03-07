@@ -1,0 +1,14 @@
+PODS:
+  - Reporter (0.1.0)
+
+DEPENDENCIES:
+  - Reporter (from `../ReporterLibrary`)
+
+EXTERNAL SOURCES:
+  Reporter:
+    :path: "../ReporterLibrary"
+
+SPEC CHECKSUMS:
+  Reporter: cfb88aee37a6b9c5198eafc45ac4b748827167ac
+
+COCOAPODS: 0.39.0

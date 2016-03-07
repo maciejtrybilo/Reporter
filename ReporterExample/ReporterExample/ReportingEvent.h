@@ -6,8 +6,8 @@
 //
 //
 
-//#import "MTReport.h"
-//
-//@interface ReportingEvent : NSObject <MTReport>
-//
-//@end
+#import <Reporter.h>
+
+@interface ReportingEvent : NSObject <MTReport>
+
+@end

@@ -6,8 +6,8 @@
 //
 //
 
-//#import "ReportingEvent.h"
-//
-//@implementation ReportingEvent
-//
-//@end
+#import "ReportingEvent.h"
+
+@implementation ReportingEvent
+
+@end

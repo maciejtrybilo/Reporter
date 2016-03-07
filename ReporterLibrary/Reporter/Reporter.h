@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
+#import "MTReport.h"
+#import "MTReporter.h"
+
 //! Project version number for Reporter.
 FOUNDATION_EXPORT double ReporterVersionNumber;
 

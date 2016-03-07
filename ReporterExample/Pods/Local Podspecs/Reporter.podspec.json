@@ -1,0 +1,20 @@
+{
+  "name": "Reporter",
+  "version": "0.1.0",
+  "license": "Copyleft",
+  "summary": "Reporting library",
+  "homepage": "https://github.com/maciejtrybilo/Reporter",
+  "authors": {
+    "Maciej Trybilo": "maciektr@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/maciejtrybilo/Reporter.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.1",
+    "osx": "10.11"
+  },
+  "source_files": "Reporter/*",
+  "requires_arc": true
+}
