@@ -11,9 +11,9 @@
 
 @interface MTReporter : NSObject
 
-@property (nonatomic, readonly) int reportingInterval;
+@property (nonatomic, readonly) NSTimeInterval reportingInterval;
 
-- (instancetype)initWithReportingInterval:(int)interval;
-- (void)addReport:(id<MTReport>)report;
+- (instancetype)initWithReportingInterval:(NSTimeInterval)interval;
+- (void)addReport:(MTReport *)report;
 
 @end

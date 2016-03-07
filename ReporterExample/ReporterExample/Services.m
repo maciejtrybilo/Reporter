@@ -26,7 +26,7 @@
     self = [super init];
     
     if (self) {
-        _reporter = [[MTReporter alloc] initWithReportingInterval: 30];
+        _reporter = [[MTReporter alloc] initWithReportingInterval: 30.0];
     }
     
     return self;

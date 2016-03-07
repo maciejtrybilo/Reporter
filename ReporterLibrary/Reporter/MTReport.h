@@ -6,6 +6,17 @@
 //  Copyright © 2016 Maciej Trybilo. All rights reserved.
 //
 
-@protocol MTReport <NSObject>
+#import <Foundation/Foundation.h>
+
+@interface MTReport : NSObject
+
+- (instancetype)initWithUserId:(NSString *)userId eventName:(NSString *)name;
+
+@property (nonatomic, readonly) NSString *userId;
+@property (nonatomic, readonly) NSString *eventName;
+@property (nonatomic, readonly) long createdAt;
+@property (nonatomic, readonly) NSDictionary *metadata;
+
+- (NSDictionary *)jsonRepresentation;
 
 @end

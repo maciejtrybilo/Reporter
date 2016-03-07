@@ -16,13 +16,11 @@
 		59CE64471C8E0226000679D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59CE64451C8E0226000679D3 /* LaunchScreen.storyboard */; };
 		59CE64521C8E0226000679D3 /* ReporterExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 59CE64511C8E0226000679D3 /* ReporterExampleTests.m */; };
 		59CE645D1C8E0226000679D3 /* ReporterExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 59CE645C1C8E0226000679D3 /* ReporterExampleUITests.m */; };
-		59CE64771C8E0D71000679D3 /* EventReport.m in Sources */ = {isa = PBXBuildFile; fileRef = 59CE64741C8E0D71000679D3 /* EventReport.m */; };
 		59CE64781C8E0D71000679D3 /* Services.m in Sources */ = {isa = PBXBuildFile; fileRef = 59CE64761C8E0D71000679D3 /* Services.m */; };
 		59CE647B1C8E0F11000679D3 /* ViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 59CE647A1C8E0F11000679D3 /* ViewController1.m */; };
 		59CE647E1C8E0F27000679D3 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 59CE647D1C8E0F27000679D3 /* ViewController2.m */; };
 		59CE64811C8E0F34000679D3 /* ViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = 59CE64801C8E0F34000679D3 /* ViewController3.m */; };
 		59CE64841C8E10F9000679D3 /* AnalyticsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59CE64831C8E10F9000679D3 /* AnalyticsViewController.m */; };
-		59CE648B1C8E11FC000679D3 /* ViewReport.m in Sources */ = {isa = PBXBuildFile; fileRef = 59CE648A1C8E11FC000679D3 /* ViewReport.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,8 +59,6 @@
 		59CE64581C8E0226000679D3 /* ReporterExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReporterExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		59CE645C1C8E0226000679D3 /* ReporterExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReporterExampleUITests.m; sourceTree = "<group>"; };
 		59CE645E1C8E0226000679D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		59CE64731C8E0D71000679D3 /* EventReport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventReport.h; sourceTree = "<group>"; };
-		59CE64741C8E0D71000679D3 /* EventReport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventReport.m; sourceTree = "<group>"; };
 		59CE64751C8E0D71000679D3 /* Services.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Services.h; sourceTree = "<group>"; };
 		59CE64761C8E0D71000679D3 /* Services.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Services.m; sourceTree = "<group>"; };
 		59CE64791C8E0F11000679D3 /* ViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController1.h; sourceTree = "<group>"; };
@@ -73,8 +69,6 @@
 		59CE64801C8E0F34000679D3 /* ViewController3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController3.m; sourceTree = "<group>"; };
 		59CE64821C8E10F9000679D3 /* AnalyticsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnalyticsViewController.h; sourceTree = "<group>"; };
 		59CE64831C8E10F9000679D3 /* AnalyticsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnalyticsViewController.m; sourceTree = "<group>"; };
-		59CE64891C8E11FC000679D3 /* ViewReport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewReport.h; sourceTree = "<group>"; };
-		59CE648A1C8E11FC000679D3 /* ViewReport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewReport.m; sourceTree = "<group>"; };
 		59CE648C1C8E13AB000679D3 /* UIViewController_Analytics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewController_Analytics.h; sourceTree = "<group>"; };
 		767EFD0BB856DD477677D36B /* Pods-ReporterExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReporterExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReporterExample/Pods-ReporterExample.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -143,10 +137,6 @@
 				59CE643B1C8E0226000679D3 /* AppDelegate.m */,
 				59CE643D1C8E0226000679D3 /* ViewController.h */,
 				59CE643E1C8E0226000679D3 /* ViewController.m */,
-				59CE64731C8E0D71000679D3 /* EventReport.h */,
-				59CE64741C8E0D71000679D3 /* EventReport.m */,
-				59CE64891C8E11FC000679D3 /* ViewReport.h */,
-				59CE648A1C8E11FC000679D3 /* ViewReport.m */,
 				59CE64751C8E0D71000679D3 /* Services.h */,
 				59CE64761C8E0D71000679D3 /* Services.m */,
 				59CE64401C8E0226000679D3 /* Main.storyboard */,
@@ -390,8 +380,6 @@
 				59CE64391C8E0226000679D3 /* main.m in Sources */,
 				59CE64841C8E10F9000679D3 /* AnalyticsViewController.m in Sources */,
 				59CE64811C8E0F34000679D3 /* ViewController3.m in Sources */,
-				59CE64771C8E0D71000679D3 /* EventReport.m in Sources */,
-				59CE648B1C8E11FC000679D3 /* ViewReport.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

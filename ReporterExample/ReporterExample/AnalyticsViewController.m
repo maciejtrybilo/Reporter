@@ -8,7 +8,6 @@
 
 #import "AnalyticsViewController.h"
 #import "Services.h"
-#import "ViewReport.h"
 
 @implementation AnalyticsViewController
 
@@ -25,7 +24,7 @@
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
     
-    ViewReport *screenView = [[ViewReport alloc] initWithName:self.name];
+    MTReport *screenView = [[MTReport alloc] initWithUserId:@"12345" eventName:self.name];
     [[Services sharedInstance].reporter addReport:screenView];
 }
 
