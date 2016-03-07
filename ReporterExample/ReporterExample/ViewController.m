@@ -8,19 +8,15 @@
 
 #import "ViewController.h"
 #import "Services.h"
-#import "ReportingEvent.h"
-
-@interface ViewController ()
-
-@end
+#import "EventReport.h"
+#import "UIViewController_Analytics.h"
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    ReportingEvent *event = [[ReportingEvent alloc] init];
-    [[Services sharedInstance].reporter addReport:event];
+    [self configureAnalyticsWithName: @"ViewController0"];
 }
 
 - (void)didReceiveMemoryWarning {

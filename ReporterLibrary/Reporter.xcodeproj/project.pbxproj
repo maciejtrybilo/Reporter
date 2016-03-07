@@ -382,6 +382,7 @@
 				598AF9281C8DF9900076C638 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		598AF9291C8DF9900076C638 /* Build configuration list for PBXNativeTarget "ReporterTests" */ = {
 			isa = XCConfigurationList;
@@ -390,6 +391,7 @@
 				598AF92B1C8DF9900076C638 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

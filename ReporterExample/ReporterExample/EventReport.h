@@ -8,6 +8,6 @@
 
 #import <Reporter.h>
 
-@interface ReportingEvent : NSObject <MTReport>
+@interface EventReport : NSObject <MTReport>
 
 @end

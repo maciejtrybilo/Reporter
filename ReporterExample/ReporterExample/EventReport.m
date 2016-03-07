@@ -6,8 +6,8 @@
 //
 //
 
-#import "ReportingEvent.h"
+#import "EventReport.h"
 
-@implementation ReportingEvent
+@implementation EventReport
 
 @end
