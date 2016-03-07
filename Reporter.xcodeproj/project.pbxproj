@@ -9,7 +9,8 @@
 /* Begin PBXBuildFile section */
 		598AF9161C8DF9900076C638 /* Reporter.h in Headers */ = {isa = PBXBuildFile; fileRef = 598AF9151C8DF9900076C638 /* Reporter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		598AF91D1C8DF9900076C638 /* Reporter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 598AF9121C8DF9900076C638 /* Reporter.framework */; };
-		598AF9221C8DF9900076C638 /* ReporterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 598AF9211C8DF9900076C638 /* ReporterTests.m */; };
+		598AF92D1C8DFACF0076C638 /* MTReporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 598AF92C1C8DFACF0076C638 /* MTReporter.m */; };
+		598AF9321C8DFC4F0076C638 /* MTReporterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 598AF9311C8DFC4F0076C638 /* MTReporterTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,8 +28,10 @@
 		598AF9151C8DF9900076C638 /* Reporter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Reporter.h; sourceTree = "<group>"; };
 		598AF9171C8DF9900076C638 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		598AF91C1C8DF9900076C638 /* ReporterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReporterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		598AF9211C8DF9900076C638 /* ReporterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReporterTests.m; sourceTree = "<group>"; };
 		598AF9231C8DF9900076C638 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		598AF92C1C8DFACF0076C638 /* MTReporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTReporter.m; sourceTree = "<group>"; };
+		598AF92E1C8DFAE30076C638 /* MTReporter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTReporter.h; sourceTree = "<group>"; };
+		598AF9311C8DFC4F0076C638 /* MTReporterTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTReporterTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +76,8 @@
 			children = (
 				598AF9151C8DF9900076C638 /* Reporter.h */,
 				598AF9171C8DF9900076C638 /* Info.plist */,
+				598AF92C1C8DFACF0076C638 /* MTReporter.m */,
+				598AF92E1C8DFAE30076C638 /* MTReporter.h */,
 			);
 			path = Reporter;
 			sourceTree = "<group>";
@@ -80,8 +85,8 @@
 		598AF9201C8DF9900076C638 /* ReporterTests */ = {
 			isa = PBXGroup;
 			children = (
-				598AF9211C8DF9900076C638 /* ReporterTests.m */,
 				598AF9231C8DF9900076C638 /* Info.plist */,
+				598AF9311C8DFC4F0076C638 /* MTReporterTests.m */,
 			);
 			path = ReporterTests;
 			sourceTree = "<group>";
@@ -193,6 +198,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				598AF92D1C8DFACF0076C638 /* MTReporter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,7 +206,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				598AF9221C8DF9900076C638 /* ReporterTests.m in Sources */,
+				598AF9321C8DFC4F0076C638 /* MTReporterTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
